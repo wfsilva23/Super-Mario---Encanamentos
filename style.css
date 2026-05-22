@@ -206,3 +206,48 @@ video {
     color: #FFFFFF;
     font-size: 20px;
 }
+
+@media (max-width: 1100px) {
+    .logo-mario {
+        display: none;
+    }
+
+    .container {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .caixa-info-texto {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-luigi-mario{
+        height: auto;
+        width: 80%;
+    }
+
+    .box-lateral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho {
+        padding: 10px;
+    }
+
+    .cabecalho img {
+        width: 40px;
+    }
+
+    .cabecalho a {
+        font-size: 16px;
+    }
+
+    #luigi {
+        width: 200px;
+    }
+}
